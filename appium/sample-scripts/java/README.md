@@ -5,8 +5,8 @@ This folder includes sample Appium tests using Java for Android and iOS, which c
 
 This example can be run either using client side execution or server side execution. To find more information about this, visit <http://docs.testdroid.com/appium/client-server/>
 
-#Client Side Test Execution
-##Prerequisites
+# Client Side Test Execution
+## Prerequisites
 1. Install Java
 	- Currently the example project is targeting Java 1.7. To change that, modify the target and source field in pom.xml
 
@@ -91,7 +91,7 @@ windows_client_side_test_and_export_results.bat ^
 -DapplicationPath=</path/to/BitbarSampleApp.apk>
 ```
 
-#Server Side Test Execution
+# Server Side Test Execution
 Create a zip file containing the project, which will be uploaded to [Testdroid Cloud](https://cloud.testdroid.com/).
 
 * On OSX/Linux machines you can just run the following command at the project's root directory:
@@ -149,7 +149,7 @@ For more information about Testdroid specific capabilites, please refer to
 
 # Helpful Resources
 - [Complete list of available devices](https://cloud.testdroid.com/#service/devicegroups)
-- [Testdroid Documentation](http://docs.testdroid.com/)
+- [Bitbar Testing Documentation](http://docs.bitbar.com/)
 
 
 
